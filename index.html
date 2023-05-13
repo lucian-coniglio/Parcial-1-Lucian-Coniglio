@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>TP1 CIU (index)</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <link rel="stylesheet" href="index_stylesheet.css">
+  <link rel="stylesheet" href="general_stylesheet.css">
+  <script src="js_index.js"></script>
+</head>
+<body>
+  <header id="header" class="header">
+    <a href="register.html" class="btn btn-info" role="button">Registrarse</a>
+    <button id="botonTema" class="btn btn-light" type="button" onclick="cambiarTema()">Cambiar tema a claro</button>
+    <h6>Síguenos en...</h6>
+    <ul class="nav list-group list-group-horizontal justify-content-start">
+      <li class="list-group-item list-group-item-primary">Facebook</li>
+      <li class="list-group-item list-group-item-secondary">Twitter</li>
+      <li class="list-group-item list-group-item-danger">Instagram</li>
+    </ul>
+  </header>
+  <article id="articulo">
+    <div class="head">
+      <figure class="text-center">
+        <blockquote class="blockquote">
+          <img src="https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1362680725/image_1362680725.jpg?io=getty-c-w750"></img>
+        </blockquote>
+        <figcaption id="subtitulo" class="blockquote-footer text-white">
+          <h6>Virbela presenta un vistazo al <cite title="Source Title">Futuro</cite></h6>
+        </figcaption>
+      </figure>
+    </div><br>
+    <div id="topic" class="text-center">
+      <h4>Qué nos espera?</h4>
+      <blockquote class="introduccion">En múltiples ocasiones se nos presenta el mismo concepto de un mundo
+        hecho por computadora, por el cual la gente se reúne entre sí para 
+        hablar, jugar, competir, etc. En Virbela pensamos que esa idea de 
+        un mundo virtual no tiene límites, por lo que discutiremos 
+        la pregunta que todos nos hacemos ¿Cumplirá la virtualidad en
+        algún punto un rol específico más allá del entretenimiento?</blockquote>
+    </div>
+    <div>
+      <table id="detalles" class="table table-dark">
+        <thead>
+          <tr>
+            <th class="text-center" scope="col" colspan="2">Detalles del evento</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">Cuándo</th>
+            <td>Jueves 13 de Mayo a las 12 PM</td>
+          </tr>
+          <tr>
+            <th scope="row" rowspan="4">Qué esperar</th>
+            <td>Qué es el metaverso, y qué funciones cumplirá en cuanto a trabajo.</td>
+          </tr>
+          <tr>
+            <td>Por qué la virtualidad es el tema principal de muchas conversaciones últimamente.</td>
+          </tr>
+          <tr>
+            <td>Qué avances tecnológicos son necesarios para una adaptación maciza</td>
+          </tr>
+          <tr>
+            <td>Una sesión con redes tras la charla, y una oportunidad de hablar directamente con expertos del tema.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </article>
+  <footer id="footer">
+    <!-- AVISO: La ubicación es intencionalmente imprecisa -->
+    <img src="https://www.trafictec.com/images/google_maps02.png" class="img-thumbnail" alt="Mapa al local" title="Ubicación"  width="40%">
+    <p class="text-center">Ubicación: Campus Abierto de Virbela</p>
+    <table id="lista_contactos" class="table table-dark">
+      <tr><th>Teléfono: </th><td>(+54)11-4469-0257/(+54)11-4477-2218</td></tr>
+      <tr><th>Gmail: </th><td>virbela.official@gmail.com</td></tr>
+    </table>
+    <div class="container">
+      <h6>Síguenos en...</h6>
+      <div class="row">
+        <div class="col-sm-8">
+            <ul id="lista_redes" class="nav list-group list-group-horizontal justify-content-start">
+              <li class="list-group-item list-group-item-primary">Facebook</li>
+              <li class="list-group-item list-group-item-secondary">Twitter</li>
+              <li class="list-group-item list-group-item-danger">Instagram</li>
+            </ul>
+        </div>
+        <div class="col-sm-4">
+          <a class="btn btn-dark" href="#header" role="button">Volver al inicio</a>
+        </div>
+      </div>
+    </div>
+   </footer>
+</body>
+</html>
